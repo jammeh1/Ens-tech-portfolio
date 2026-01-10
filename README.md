@@ -1,6 +1,6 @@
 # Ens-tech-portfolio
 
-Live site: https://jammeh1.github.io
+Live site:https://jammeh1.github.io/Ens-tech-portfolio/
 
 ## Technologies
 - HTML
