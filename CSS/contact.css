@@ -1,0 +1,38 @@
+#contact {
+	margin-top: 3rem;
+	margin-bottom: 7rem;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-sub-container {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	border: 0.1rem solid black;
+	border-radius: 18px;
+	padding: 18px 23px;
+	color: #000;
+	margin-top: 4rem;
+}
+
+.contact-sub-container .mail {
+	display: flex;
+	gap: 5px;
+}
+
+.contact-sub-container .linkedin {
+	display: flex;
+	gap: 5px;
+}
+.checkmark {
+	inline-size: 1.2rem;
+}
+
+.mail a,
+.linkedin a {
+	color: #000;
+}

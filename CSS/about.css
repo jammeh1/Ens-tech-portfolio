@@ -1,0 +1,133 @@
+/* ================= ABOUT SECTION (DESKTOP) ================= */
+#about {
+	background-position: center;
+	background-size: cover;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+	margin: 0 auto;
+	background-color: rgb(246, 229, 198);
+	text-align: center; /* ensures text and inline content centered */
+}
+
+.sub-title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sub-title h1 {
+	font-size: 3rem;
+	font-family: alata;
+	font-weight: bold;
+	color: #e84613;
+}
+
+.sub-title p {
+	margin-top: 2rem;
+}
+
+.container .about {
+	width: 25rem;
+	margin: 3rem auto;
+	border-radius: 2rem;
+	display: block;
+}
+
+.experience-icon,
+.education-icon {
+	width: 2rem;
+}
+
+.details {
+	inline-size: 600px;
+	text-align: center;
+	margin: 0 auto 2rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.experience-con,
+.education-con {
+	flex: 1;
+	background-color: #000;
+	color: white;
+	border: 2px solid #e84613;
+	padding: 1.5rem 2rem;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.experience,
+.education {
+	color: #e84613;
+}
+
+.sub-container {
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+	width: 50rem;
+	margin: 0 auto 2rem;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+	#about {
+		padding: 5rem 1rem;
+		text-align: center;
+	}
+
+	/* Make the container flexible and full width */
+	.container {
+		display: flex !important; /* override grid */
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100% !important; /* full width */
+		max-width: 100% !important; /* remove any cap */
+		margin: 0 auto !important;
+	}
+
+	/* About image */
+	.container .about {
+		width: 100%; /* full container width */
+		max-width: 350px; /* bigger than before */
+		margin: 2rem auto;
+		display: block;
+	}
+
+	/* Cards container */
+	.sub-container {
+		display: flex;
+		flex-direction: column; /* stack vertically */
+		align-items: center;
+		gap: 1.5rem;
+		width: 100%;
+		margin: 2rem auto;
+		max-width: 400px; /* enough width for cards */
+	}
+
+	/* Cards */
+	.experience-con,
+	.education-con {
+		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	/* Text */
+	.details {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 1rem;
+		text-align: center;
+	}
+
+	/* Subtitle */
+	.sub-title h1 {
+		font-size: 2.4rem;
+	}
+}

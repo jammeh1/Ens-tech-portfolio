@@ -1,0 +1,31 @@
+.skill-card img {
+	width: 3rem;
+}
+#skills {
+	background-color: wheat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+.skills-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.skills-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	width: 80%;
+	margin: 0 auto;
+	gap: 2rem;
+}
+
+.skill-card {
+	background-color: whitesmoke;
+	text-align: center;
+	margin-top: 3rem;
+	border: 1px solid #e84613;
+	border-radius: 2rem;
+	padding: 20px 25px;
+}
