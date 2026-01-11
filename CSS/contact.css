@@ -36,3 +36,8 @@
 .linkedin a {
 	color: #000;
 }
+#contact a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
